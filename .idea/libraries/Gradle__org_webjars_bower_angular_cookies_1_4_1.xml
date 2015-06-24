@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars.bower:angular-cookies:1.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bower/angular-cookies/1.4.1/2421d712a128c6f738517c7f8b75db9e478d0fed/angular-cookies-1.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bower/angular-cookies/1.4.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/angular-cookies-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

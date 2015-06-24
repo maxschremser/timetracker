@@ -25,7 +25,7 @@ public class DateRequest {
         String parsedDate = DateFormatter.parseToString(date) + ".md";
         log.debug("Parsed '" + date + "' to '" + parsedDate + "'");
 
-        File markdown = new File("tracks", parsedDate);
+        File markdown = new File("tracks", parsedDate.replaceAll("-",File.separator));
         log.debug("Reading file: '" + markdown.getAbsolutePath() + "'");
         try {
             return FileUtils.readFileToString(markdown);

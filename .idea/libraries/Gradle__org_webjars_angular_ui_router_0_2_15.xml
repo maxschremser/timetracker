@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:angular-ui-router:0.2.15">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/angular-ui-router/0.2.15/1087f394929f0a2cea33c3494f517f7c42586ff7/angular-ui-router-0.2.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/angular-ui-router/0.2.15/64085666c1c2add82e549cce4aaac3ae43e2ec6c/angular-ui-router-0.2.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

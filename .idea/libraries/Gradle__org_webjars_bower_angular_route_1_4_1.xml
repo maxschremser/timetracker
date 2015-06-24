@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars.bower:angular-route:1.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bower/angular-route/1.4.1/ea5861c423b34b74f8a88e68b61a61c891dbee33/angular-route-1.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bower/angular-route/1.4.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/angular-route-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
