@@ -1,0 +1,55 @@
+<div id="dialog">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Dashboard <small> Add Details</small></h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-info">
+                <form name="details">
+                <div class="panel-heading">
+                    Add Details to Task
+                    <small>
+                        The description should add relevant information to the selected project task. The text
+                        will be parsed as Markdown which enables you to write less markup code. Markdown information
+                        is available <a href="https://help.github.com/articles/markdown-basics/" target="_blank">here</a>.
+                    </small>
+                </div>
+                <div class="panel-body">
+                    <h4>Project</h4>
+                    <div class="btn-group">
+                        <label class="btn btn-info btn-cirle btn-lg" ng-model="details.project" btn-radio="'ACM'">ACM</label>
+                        <label class="btn btn-info btn-cirle btn-lg" ng-model="details.project" btn-radio="'ACA'">ACA</label>
+                        <label class="btn btn-info btn-cirle btn-lg" ng-model="details.project" btn-radio="'Other'">Other</label>
+                        <label class="btn btn-warning btn-cirle btn-lg" ng-model="details.project.L3" btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0"><i class="fa fa-dollar"></i> L3</label>
+                    </div>
+                    <h4>Description</h4>
+                    <textarea class="form-control" placeholder="Enter a description for the last period of time.
+# Header 1
+## Header 2
+...
+###### Header 6
+
+*italic text*
+**bold text**
+
+    unordered list:         ordered list:       nested list:
+    * item 1                  1. item 1           1. item 1
+    * item 2                  2. item 2             - item A
+    * item 3                  3. item 3           2. item 2
+                                                             * item A
+    - item 1
+    - item 2
+    - item 3" ng-model="details.description" rows="10"></textarea>
+                </div>
+                <div class="panel-footer">
+                    <button type="button" class="btn btn-info btn-circle btn-lg" ng-disabled="details.$invalid" ng-click="validateDialog(details)"><i class="fa fa-check"></i> </button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

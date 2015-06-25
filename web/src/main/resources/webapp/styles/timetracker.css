@@ -1,0 +1,32 @@
+div#dialog div.panel-footer button[type=button], div#login div.panel-footer button[type=button] {
+    float: right;
+}
+div#dialog h1.page-header small {
+    display: block;
+}
+div#dialog div.panel-footer, div#login div.panel-footer, div#dialog div.panel-heading, div#login div.panel-heading {
+    min-height: 70px;
+}
+div#login div.panel-footer {
+    min-height: 90px;
+}
+div#login h1 {
+    font-size: xx-large;
+}
+div#dialog div.panel-heading {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+div#dialog div.panel-body {
+    min-height: 250px;
+}
+div#home div.stats div.panel-heading {
+    min-height: 90px;
+    display:block;
+}
+div.panel-heading small {
+    display:block;
+    font-weight: normal;
+    font-size: small;
+}
