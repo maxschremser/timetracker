@@ -31,14 +31,14 @@ dependencies {
     compile 'org.glassfish.grizzly:grizzly-http-servlet:2.3.21'
 
     // WebJars static resources
-    compile 'org.webjars:angularjs:1.4.1'
-    compile 'org.webjars.bower:angular-animate:1.4.+'
-    compile 'org.webjars.bower:angular-resource:+'
-    compile 'org.webjars.bower:angular-cookies:+'
-    compile 'org.webjars.bower:angular-sanitize:+'
-    compile 'org.webjars.bower:angular-touch:+'
-    compile 'org.webjars.bower:angular-route:+'
-    compile 'org.webjars.bower:angular-toggle-switch:+'
+    compile 'org.webjars:angularjs:1.4.0'
+    compile 'org.webjars.bower:angular-animate:1.4.0'
+    compile 'org.webjars.bower:angular-resource:1.4.0'
+    compile 'org.webjars.bower:angular-cookies:1.4.0'
+    compile 'org.webjars.bower:angular-sanitize:1.4.0'
+    compile 'org.webjars.bower:angular-touch:1.4.0'
+    compile 'org.webjars.bower:angular-route:1.4.0'
+    compile 'org.webjars.bower:angular-toggle-switch:1.3.0'
     compile 'org.webjars:bootstrap:3.3.0'
     compile 'org.webjars:angular-ui-bootstrap:0.13.0'
     compile 'org.webjars:angular-ui-router:0.2.15'
@@ -50,6 +50,7 @@ dependencies {
     compile 'org.webjars.bower:ocLazyLoad:1.0.1'
     compile 'org.webjars.bower:Chart.js:1.0.2'
     compile 'org.webjars.bower:angular-chart.js:0.7.1'
+    compile 'org.webjars:restangular:1.4.0-2'
 
     // Test Classes
     testCompile 'junit:junit:4.11'

@@ -14,7 +14,7 @@
     
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/sb-admin-2.css">
+    <link rel="stylesheet" href="styles/timetracker.css">
     <link rel="stylesheet" href="styles/timeline.css">
     <link rel="stylesheet" href="styles/timetracker.css">
     <link rel="stylesheet" href="webjars/metisMenu/1.1.3/metisMenu.min.css">
@@ -24,23 +24,26 @@
     
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="webjars/jquery/2.1.4/jquery.min.js"></script>
-    <script src="webjars/angularjs/1.4.1/angular.min.js"></script>
-    <script src="webjars/angularjs/1.4.1/angular-animate.min.js"></script>
-    <script src="webjars/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="webjars/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-    <script src="webjars/json3/3.3.2/json3.min.js"></script>
-    <script src="webjars/ocLazyLoad/1.0.1/dist/ocLazyLoad.min.js"></script>
-    <script src="webjars/angular-loading-bar/0.7.1/loading-bar.min.js"></script>
-    <script src="webjars/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
-    <script src="webjars/metisMenu/1.1.3/metisMenu.min.js"></script>
+    <script src="webjars/jquery/2.1.4/jquery.js"></script>
+    <script src="webjars/angularjs/1.4.0/angular.js"></script>
+    <script src="webjars/lodash/2.4.1/lodash.min.js"></script>
+    <script src="webjars/angularjs/1.4.0/angular-animate.js"></script>
+    <script src="webjars/bootstrap/3.3.0/js/bootstrap.js"></script>
+    <script src="webjars/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <script src="webjars/json3/3.3.2/json3.js"></script>
+    <script src="webjars/ocLazyLoad/1.0.1/dist/ocLazyLoad.js"></script>
+    <script src="webjars/angular-loading-bar/0.7.1/loading-bar.js"></script>
+    <script src="webjars/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js"></script>
+    <script src="webjars/metisMenu/1.1.3/metisMenu.js"></script>
     <script src="webjars/Chart.js/1.0.2/Chart.js"></script>
+    <script src="webjars/lodash/2.4.1/lodash.js"></script>
+    <script src="webjars/restangular/1.4.0/restangular.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-        <script src="js/sb-admin-2.js"></script>
+        <script src="js/timetracker.js"></script>
     <!-- endbuild -->
 
 
@@ -65,7 +68,7 @@
    
     <body>
 
-    <div ng-app="sbAdminApp">
+    <div ng-app="timetracker">
 
         <div ui-view></div>
 
