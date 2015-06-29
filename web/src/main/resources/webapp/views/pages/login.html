@@ -1,0 +1,29 @@
+<div class="container" id="login" ng-controller="LoginCtrl">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">
+                    <h1 class="panel-title">timetracker<small>Please Sign In with your Email and a password.</small></h1>
+                </div>
+                <div class="panel-body">
+                    <fieldset>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="E-mail" ng-model="form.email" type="email" autofocus required>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Password" ng-model="form.password" type="password" required>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input ng-model="form.remember" type="checkbox" value="Remember Me">Remember Me
+                            </label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="panel-footer">
+                    <button type="button" class="btn btn-info btn-circle btn-xl" ng-disabled="form.$invalid" ng-click="login(form)"><i class="fa fa-check"></i> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

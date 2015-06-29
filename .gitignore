@@ -1,4 +1,11 @@
-.idea/*
-.gradle/*
-build/*
-out/*
+.idea/
+.gradle/
+build/
+out/
+gradle/
+logs/
+tracks/
+
+*.iml
+*.ipr
+*.log
