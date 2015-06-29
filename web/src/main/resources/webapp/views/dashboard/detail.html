@@ -9,9 +9,9 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-info">
-                <form name="details">
+                <form name="track">
                 <div class="panel-heading">
-                    Add Details to Task
+                    Add Details to Task {{detail.track}}
                     <small>
                         The description should add relevant information to the selected project task. The text
                         will be parsed as Markdown which enables you to write less markup code. Markdown information
@@ -19,13 +19,10 @@
                     </small>
                 </div>
                 <div class="panel-body">
-                    <h4>Project</h4>
-                    <div class="btn-group">
-                        <label class="btn btn-info btn-cirle btn-lg" ng-model="details.project" btn-radio="'ACM'">ACM</label>
-                        <label class="btn btn-info btn-cirle btn-lg" ng-model="details.project" btn-radio="'ACA'">ACA</label>
-                        <label class="btn btn-info btn-cirle btn-lg" ng-model="details.project" btn-radio="'Other'">Other</label>
-                        <label class="btn btn-warning btn-cirle btn-lg" ng-model="details.project.L3" btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0"><i class="fa fa-dollar"></i> L3</label>
-                    </div>
+                    <h4>Track for {{main.date}}</h4>
+                    <projectButtons prefix="track"/>
+                    <input type="text" ng-model="track.name" ng-init="track.name"/>
+
                     <h4>Description</h4>
                     <textarea class="form-control" placeholder="Enter a description for the last period of time in markdown language.
 # Header 1
@@ -43,10 +40,10 @@
                                                              * item A
     - item 1
     - item 2
-    - item 3" ng-model="details.description" rows="10"></textarea>
+    - item 3" ng-model="task.details" rows="10"></textarea>
                 </div>
                 <div class="panel-footer">
-                    <button type="button" class="btn btn-info btn-circle btn-lg" ng-disabled="details.$invalid" ng-click="validateDialog(details)"><i class="fa fa-check"></i> </button>
+                    <button type="button" class="btn btn-info btn-circle btn-lg" ng-disabled="track.$invalid" ng-click="detail.addTask(track,task)"><i class="fa fa-check"></i> </button>
                 </div>
                 </form>
             </div>

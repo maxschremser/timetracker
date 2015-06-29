@@ -362,7 +362,9 @@ div#dialog div.panel-footer button[type=button],
 div#login div.panel-footer button[type=button] {
     float: right;
 }
-div#dialog h1.page-header small {
+div#dialog h1.page-header small,
+h4.timeline-title small,
+h2 small, {
     display: block;
 }
 div#dialog div.panel-footer,
@@ -393,4 +395,9 @@ div.panel-heading small {
     display:block;
     font-weight: normal;
     font-size: small;
+}
+
+div.huge input.form-control {
+    font-size: x-large;
+    height: 60px;
 }

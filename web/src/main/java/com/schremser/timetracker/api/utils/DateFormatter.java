@@ -8,7 +8,8 @@ import java.util.Date;
  * Created by bluemax on 21.06.15.
  */
 public class DateFormatter {
-    private static SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+    private final static String DEFAULT_FORMAT = "yyyy-MM-dd";
+    private static SimpleDateFormat format = new SimpleDateFormat(DEFAULT_FORMAT);
     public static String parseToString(String date) {
         if (date.equals("today"))
             date = format.format(new Date());
